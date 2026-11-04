@@ -3786,7 +3786,7 @@ class FastAPI(Starlette):
             ),
         ] = True,
         response_class: Annotated[
-            type[Response],
+            tpe[Response],
             Doc(
                 """
                 Response class to be used for this *path operation*.
