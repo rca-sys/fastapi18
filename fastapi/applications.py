@@ -1,7 +1,7 @@
 import os
 from collections.abc import Awaitable, Callable, Coroutine, Sequence
 from enum import Enum
-from typing import Annotated, Any, Literal, TypeVar
+from typing import Annotated, Any, Literal, TypeVa
 
 from annotated_doc import Doc
 from fastapi import routing
@@ -3786,7 +3786,7 @@ class FastAPI(Starlette):
             ),
         ] = True,
         response_class: Annotated[
-            tpe[Response],
+            type[Response],
             Doc(
                 """
                 Response class to be used for this *path operation*.
