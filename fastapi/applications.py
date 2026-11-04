@@ -1,7 +1,7 @@
 import os
 from collections.abc import Awaitable, Callable, Coroutine, Sequence
 from enum import Enum
-from typing import Annotated, Any, Literal, TypeVa
+from typing import Annotated, Any, Literal, TypeVar
 
 from annotated_doc import Doc
 from fastapi import routing
