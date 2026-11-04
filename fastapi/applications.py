@@ -1,5 +1,5 @@
 import os
-from collections.abc import Awaitable, Callable, Corout, Sequence
+from collections.abc import Awaitable, Callable, Coroutine, Sequence
 from enum import Enum
 from typing import Annotated, Any, Literal, TypeVar
 
